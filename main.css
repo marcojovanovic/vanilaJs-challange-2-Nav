@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Langar', cursive;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.showcase__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.showcase {
+  background: linear-gradient(to right bottom, #5ab32abd, #18a57a9a),
+    url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.showcase__nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  background: #333;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.showcase__list {
+  display: flex;
+}
+
+.showcase__list--item {
+  margin-left: 2rem;
+}
+
+.active {
+  color: teal;
+}
+
+.showcase__content h1 {
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  margin-bottom: 0.3rem;
+}
+
+.showcase__content p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.nav__scroll {
+  background: white;
+  padding: 1rem;
+  color: #333;
+}
+
+.nav__scroll .showcase__list--link {
+  color: #333;
+}
